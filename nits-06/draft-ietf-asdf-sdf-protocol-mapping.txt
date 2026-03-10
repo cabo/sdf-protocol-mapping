@@ -190,7 +190,7 @@ Table of Contents
 
    The sdfProtocolMap keyword is introduced into SDF affordance
    definitions through the extension points defined in the formal syntax
-   of [RFC9880] (Appendix A).  For each affordance type, an
+   of Appendix A of [RFC9880].  For each affordance type, an
    sdfProtocolMap entry is added via the corresponding CDDL group
    socket.  The contents of the sdfProtocolMap object are in turn
    extensible through a protocol-mapping-specific group socket.
@@ -202,7 +202,7 @@ Table of Contents
 3.1.1.  Property Extension
 
    The $$SDF-EXTENSION-PROPERTY group socket in the propertyqualities
-   rule of [RFC9880] (Appendix A) is used to add protocol mapping to
+   rule of Appendix A of [RFC9880] is used to add protocol mapping to
    sdfProperty definitions:
 
    $$SDF-EXTENSION-PROPERTY //= (
@@ -301,7 +301,7 @@ Table of Contents
 3.1.2.  Action Extension
 
    The $$SDF-EXTENSION-ACTION group socket in the actionqualities rule
-   of [RFC9880] (Appendix A) is used to add protocol mapping to
+   of Appendix A of [RFC9880] is used to add protocol mapping to
    sdfAction definitions:
 
    $$SDF-EXTENSION-ACTION //= (
@@ -346,7 +346,7 @@ Table of Contents
 3.1.3.  Event Extension
 
    The $$SDF-EXTENSION-EVENT group socket in the eventqualities rule of
-   [RFC9880] (Appendix A) is used to add protocol mapping to sdfEvent
+   Appendix A of [RFC9880] is used to add protocol mapping to sdfEvent
    definitions:
 
    $$SDF-EXTENSION-EVENT //= (
