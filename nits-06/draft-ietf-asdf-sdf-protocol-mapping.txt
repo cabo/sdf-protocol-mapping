@@ -810,17 +810,18 @@ Table of Contents
 
    The following protocol mappings are described in this document:
 
-     +==============+===============+====================+===========+
-     | Protocol map | Protocol Name | Description        | Reference |
-     +==============+===============+====================+===========+
-     | ble          | Bluetooth Low | Protocol mapping   | This      |
-     |              | Energy (BLE)  | for BLE devices    | document  |
-     +--------------+---------------+--------------------+-----------+
-     | zigbee       | Zigbee        | Protocol mapping   | This      |
-     |              |               | for Zigbee devices | document  |
-     +--------------+---------------+--------------------+-----------+
+    +==========+===============+====================+================+
+    | Protocol | Protocol Name | Description        | Reference      |
+    | Map Name |               |                    |                |
+    +==========+===============+====================+================+
+    | ble      | Bluetooth Low | Protocol mapping   | This document, |
+    |          | Energy (BLE)  | for BLE devices    | Section 5.1    |
+    +----------+---------------+--------------------+----------------+
+    | zigbee   | Zigbee        | Protocol mapping   | This document, |
+    |          |               | for Zigbee devices | Section 5.2    |
+    +----------+---------------+--------------------+----------------+
 
-                     Table 1: Protocol Mapping Registry
+                    Table 1: Protocol Mapping Registry
 
 8.2.  SCIM Device Schema SDF Extension
 
@@ -832,11 +833,11 @@ Table of Contents
       |                       |             | Type     |           |
       +=======================+=============+==========+===========+
       | urn:ietf:params:scim: | SDF         | Device   | This      |
-      | schemas:extension:    | Extension   |          | memo,     |
+      | schemas:extension:    | Extension   |          | document, |
       | sdf:2.0:Device        |             |          | Section 6 |
       +-----------------------+-------------+----------+-----------+
 
-                                 Table 2
+                Table 2: SCIM Device Schema SDF Extension
 
 9.  References
 

@@ -2089,7 +2089,7 @@ functionality defined in the rest of this document. The SCIM schema attributes
 used here are described in Section 7 of <span>[<a href="#RFC7643" class="cite xref">RFC7643</a>]</span>.<a href="#section-6-1" class="pilcrow">¶</a></p>
 <span id="name-scim-sdf-extension-schema"></span><div id="scim-sdf-extension-schema">
 <figure id="figure-17">
-        <div class="alignLeft art-text artwork" id="section-6-2.1">
+        <div class="lang-json sourcecode" id="section-6-2.1">
 <pre>
 =============== NOTE: '\' line wrapping per RFC 8792 ================
 
@@ -2205,7 +2205,7 @@ They should verify that updates preserve backward compatibility with deployed im
           </caption>
 <thead>
             <tr>
-              <th class="text-left" rowspan="1" colspan="1">Protocol map</th>
+              <th class="text-left" rowspan="1" colspan="1">Protocol Map Name</th>
               <th class="text-left" rowspan="1" colspan="1">Protocol Name</th>
               <th class="text-left" rowspan="1" colspan="1">Description</th>
               <th class="text-left" rowspan="1" colspan="1">Reference</th>
@@ -2216,13 +2216,15 @@ They should verify that updates preserve backward compatibility with deployed im
               <td class="text-left" rowspan="1" colspan="1">ble</td>
               <td class="text-left" rowspan="1" colspan="1">Bluetooth Low Energy (BLE)</td>
               <td class="text-left" rowspan="1" colspan="1">Protocol mapping for BLE devices</td>
-              <td class="text-left" rowspan="1" colspan="1">This document</td>
+              <td class="text-left" rowspan="1" colspan="1">This document, <a href="#ble-pm" class="auto internal xref">Section 5.1</a>
+</td>
             </tr>
             <tr>
               <td class="text-left" rowspan="1" colspan="1">zigbee</td>
               <td class="text-left" rowspan="1" colspan="1">Zigbee</td>
               <td class="text-left" rowspan="1" colspan="1">Protocol mapping for Zigbee devices</td>
-              <td class="text-left" rowspan="1" colspan="1">This document</td>
+              <td class="text-left" rowspan="1" colspan="1">This document, <a href="#zigbee-pm" class="auto internal xref">Section 5.2</a>
+</td>
             </tr>
           </tbody>
         </table>
@@ -2236,8 +2238,12 @@ They should verify that updates preserve backward compatibility with deployed im
         </h3>
 <p id="section-8.2-1">IANA is requested to create the following extension in the SCIM
 Server-Related Schema URIs registry as described in <a href="#scim-sdf-extension" class="auto internal xref">Section 6</a>:<a href="#section-8.2-1" class="pilcrow">¶</a></p>
+<span id="name-scim-device-schema-sdf-exten"></span><div id="iana-scim">
 <table class="center" id="table-2">
-          <caption><a href="#table-2" class="selfRef">Table 2</a></caption>
+          <caption>
+<a href="#table-2" class="selfRef">Table 2</a>:
+<a href="#name-scim-device-schema-sdf-exten" class="selfRef">SCIM Device Schema SDF Extension</a>
+          </caption>
 <thead>
             <tr>
               <th class="text-left" rowspan="1" colspan="1">URN</th>
@@ -2251,11 +2257,12 @@ Server-Related Schema URIs registry as described in <a href="#scim-sdf-extension
               <td class="text-left" rowspan="1" colspan="1">urn:ietf:params:scim: schemas:extension: sdf:2.0:Device</td>
               <td class="text-left" rowspan="1" colspan="1">SDF Extension</td>
               <td class="text-left" rowspan="1" colspan="1">Device</td>
-              <td class="text-left" rowspan="1" colspan="1">This memo, <a href="#scim-sdf-extension" class="auto internal xref">Section 6</a>
+              <td class="text-left" rowspan="1" colspan="1">This document, <a href="#scim-sdf-extension" class="auto internal xref">Section 6</a>
 </td>
             </tr>
           </tbody>
         </table>
+</div>
 </section>
 </div>
 </section>
