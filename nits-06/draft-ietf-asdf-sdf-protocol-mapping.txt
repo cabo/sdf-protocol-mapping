@@ -167,8 +167,9 @@ Table of Contents
    A protocol mapping object is a JSON object identified by the
    sdfProtocolMap keyword, nested inside an SDF affordance definition
    (sdfProperty, sdfAction, or sdfEvent).  Protocol-specific attributes
-   are embedded within this object, keyed by an IANA registered protocol
-   name, e.g., "ble" or "zigbee".
+   are embedded within this object, keyed by a protocol name registered
+   in the IANA "SDF Protocol Mapping" registry (Section 8.1), e.g.,
+   "ble" or "zigbee".
 
    sdfProperty / sdfAction / sdfEvent
      |
