@@ -5,9 +5,9 @@
 A Semantic Definition Format for Data and Interactions of ThingsR. Mohan
 Internet-Draft                                              B. Brinckman
 Intended status: Standards Track                           Cisco Systems
-Expires: 11 September 2026                                     L. Corneo
+Expires: 13 September 2026                                     L. Corneo
                                                                 Ericsson
-                                                           10 March 2026
+                                                           12 March 2026
 
 
                           SDF Protocol Mapping
@@ -55,7 +55,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 11 September 2026.
+   This Internet-Draft will expire on 13 September 2026.
 
 Copyright Notice
 
@@ -147,8 +147,7 @@ Table of Contents
 2.  Conventions and Definitions
 
    The syntax extensions to [RFC9880] in terms of its JSON structures
-   are shown in the the Concise Data Definition Language (CDDL)
-   [RFC8610].
+   are shown in the Concise Data Definition Language (CDDL) [RFC8610].
 
    The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT",
    "SHOULD", "SHOULD NOT", "RECOMMENDED", "NOT RECOMMENDED", "MAY", and
